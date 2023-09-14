@@ -1,6 +1,6 @@
 .contenedor {
     display: flex;
-    background-image: url("/image/lego-blue-texture_1920x1080_xtrafondos.png"); /* Ruta de  imagen de fondo */
+    background-image: url("/proyecto-final/image/lego-blue-texture_1920x1080_xtrafondos.png"); /* Ruta de  imagen de fondo */
     background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
     background-repeat: repeat; /* Evita que la imagen se repita */
     background-position: center;
