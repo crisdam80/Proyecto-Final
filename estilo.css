@@ -1,0 +1,177 @@
+.contenedor {
+    display: flex;
+    background-image: url("/image/lego-blue-texture_1920x1080_xtrafondos.png"); /* Ruta de  imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-repeat: repeat; /* Evita que la imagen se repita */
+    background-position: center;
+  
+    padding: 20px;
+  }
+  
+  .columna-azul {
+    flex: 1;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    border: 1px solid #000; /* Borde negro */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px; /* Agrega esquinas redondeadas */
+  }
+  
+  .columna-blanca {
+    flex: 2;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px; /* Agrega esquinas redondeadas */
+  }
+  
+  /* Estilo  para los botones */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Estilo para los botones cuando se les hace hover */
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(
+      1.05
+    ); /* Hace que el botón se agrande ligeramente al pasar el mouse */
+  }
+  
+  /* Estilo base para el logo */
+  #foto-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.2s ease; /* Transición para el efecto de aumento */
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+    border: 1px black;
+  }
+  
+  /* Estilo para el logo cuando se le hace hover */
+  #foto-perfil:hover {
+    transform: scale(
+      1.1
+    ); /* Aumenta ligeramente el tamaño del logo al pasar el mouse */
+  }
+  
+  /* Estilo para el footer */
+  footer {
+    background-color: #007bff; /* Color de fondo del footer */
+    color: #fff; /* Color del texto en el footer */
+    text-align: center; /* Centrar el texto horizontalmente */
+    padding: 10px 0; /* Espaciado interiorr */
+    border: 1px solid #000;
+  }
+  
+  /* Estilo para el contenido del footerr */
+  .footer-content {
+    max-width: 1200px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+  }
+  
+  /* Estilo para el header */
+  header {
+    background-color: #007bff; /* Color de fondo del header */
+    color: #fff; /* Color del texto en el header */
+    text-align: center; /* Centrar el texto horizontalmente */
+    padding: 10px 0; /* Espaciado interior */
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #000;
+  }
+  
+  /* Estilo para el contenido del header */
+  .header-content {
+    max-width: 1200px; /* Ancho máximo del contenido del header */
+    margin: 0 auto; /* Centrar el contenido del header horizontalmente */
+  }
+  
+  /* Estilo para los íconos de redes sociales en el header */
+  .header-content img {
+    width: 40px; /* Ancho  */
+    height: 40px; /* Alto  */
+    transition: transform 0.2s ease;
+    
+  }
+  
+  .header-content img:hover {
+    transform: scale(1.2); /* Aumenta el tamaño al pasar el mouse */
+  }
+  
+  /* Estilo para el título en el header */
+  .header-title {
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 10px; /* Agrega un poco de espacio alrededor del título */
+    text-align: left; /* Alinea el texto a la izquierda */
+    position: absolute; /* Permite el posicionamiento absoluto */
+    top: 0; /* Coloca el título en la parte superior */
+    left: 0; /* Coloca el título en la esquina izquierda */
+  }
+  
+  /* Estilos para pantallas pequeñas (móviles) */
+  @media (max-width: 767px) {
+    .contenedor {
+      flex-direction: column; /* Cambia la dirección del flexbox a columna */
+    }
+    .columna-azul,
+    .columna-blanca {
+      flex: 1; /* Hace que ambas columnas ocupen el 100% del ancho */
+    }
+  }
+  
+  /* Estilos para pantallas medianas y grandes (tabletas y escritorio) */
+  @media (min-width: 768px) {
+    .contenedor {
+      padding: 20px 5%; /* Ajusta el espaciado lateral para pantallas más grandes */
+    }
+    .columna-azul,
+    .columna-blanca {
+      flex: 1; /*  ambas columnas ocupen el 50% del ancho */
+      margin: 0 10px; /* Agrega un margen lateral entre las columnas */
+    }
+  }
+  
+  /* Estilo para los iconos de habilidades */
+  .habilidad-icon {
+    max-width: 80px; /* Ancho máximo de los iconos */
+    max-height: 80px; /* Altura máxima de los iconos */
+    vertical-align: middle; /* Alinea verticalmente los iconos con el texto */
+    margin-right: 10px; /* Espacio derecho entre el icono y el texto */
+    transition: transform 0.2s ease;
+  }
+  
+  /* Estilo para los íconos de habilidades cuando se les hace hover */
+  .habilidad-icon:hover {
+    transform: scale(
+      1.1
+    ); /* Aumenta ligeramente el tamaño al pasar el mouse, similar a los botones */
+  }
+  
+  /* Estilo para las barras de progreso */
+  .progreso {
+    background-color: #ddd; /* Color de fondo de la barra de progreso */
+    height: 20px; /* Altura de la barra de progreso */
+    margin-top: 5px; /* Espacio superior entre el icono y la barra de progreso */
+  }
+  
+  .barra {
+    width: 0; /* Ancho inicial de la barra de progreso (0%) */
+    height: 100%; /* Altura de la barra de progreso */
+    text-align: center; /* Alineación del texto de porcentaje */
+    line-height: 20px; /* Alineación vertical del texto de porcentaje */
+    color: #fff; /* Color del texto de porcentaje */
+    background-color: #007bff; /* Color de la barra de progreso */
+    transition: width 2s ease; /* Animación de la barra de progreso */
+  }
+  
+  /* Estilo para las barras de progreso cuando se muestran */
+  #lista-habilidades li:hover .barra {
+    width: 100%; /* Cambia el ancho de la barra al 100% al pasar el mouse sobre la habilidad */
+  }

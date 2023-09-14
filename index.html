@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/image/logo.png" type="image/x-icon" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" type="text/css" href="estilo.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+  <title>Curriculum Vitae</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <div class="social-icons">
+        <a href="https://www.facebook.com/tucuenta" target="_blank">
+          <img src="/image/facebook.svg" alt="Facebook" />
+        </a>
+        <a href="https://twitter.com/tucuenta" target="_blank">
+          <img src="/image/twitter.svg" alt="Twitter" />
+        </a>
+        <a href="https://www.instagram.com/tucuenta" target="_blank">
+          <img src="/image/instagram.svg" alt="Instagram" />
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="contenedor">
+    <!-- Columna Azul -->
+    <div class="columna-azul">
+      <img src="https://randomuser.me/api/portraits/lego/5.jpg" alt="foto-perfil" id="foto-perfil" />
+      <h3>Mario Lego</h3>
+      <p>Full Stack Junior</p>
+
+      <h1>Informacion Personal</h1>
+      <p>Nombre: Mario Lego</p>
+
+      <h2>Telefono</h2>
+      <p>Tel: 11123545</p>
+      <h2>E-Mail</h2>
+      <p>ann.nguyen@example.com</p>
+      <h2>Direccion</h2>
+      <p>179 E Center St</p>
+    </div>
+    <!-- Columna Blanca -->
+    <div class="columna-blanca">
+      <h2>Educación</h2>
+      <button type="button" onclick="mostrarEducacion()">
+        Mostrar Educación
+      </button>
+      <ul id="lista-educacion" style="display: none">
+        <li>
+          Nombre de la institución - Título obtenido - Año de graduación
+        </li>
+        <li>Otra institución - Otro título - Otro año</li>
+        <!-- Agrega más elementos de la lista para cada institución educativa -->
+      </ul>
+
+      <h2>Experiencia</h2>
+      <button type="button" onclick="mostrarExperiencia()">
+        Mostrar Experiencia
+      </button>
+      <ul id="lista-experiencia" style="display: none">
+        <li>Nombre de la Empresa - Desde - Hasta</li>
+        <li>Otra Empresa - Desde - Hasta</li>
+        <!-- Agrega más elementos de la lista para cada experiencia laboral -->
+      </ul>
+
+      <h2>Habilidades</h2>
+      <button type="button" onclick="mostrarHabilidades()">
+        Mostrar Habilidades
+      </button>
+      <ul id="lista-habilidades" style="display: none">
+        <li>
+          <img src="/image/html.png" alt="HTML Icon" class="habilidad-icon" />
+          <span style="font-family: monospace">En-Progreso</span>
+          <div class="progreso">
+            <div class="barra" style="width: 50%">50%</div>
+          </div>
+        </li>
+        <li>
+          <img src="/image/css.png" alt="CSS Icon" class="habilidad-icon" />
+          <span style="font-family: monospace">En-Progreso</span>
+          <div class="progreso">
+            <div class="barra" style="width: 70%">70%</div>
+          </div>
+        </li>
+        <li>
+          <img src="/image/js.png" alt="JavaScript Icon" class="habilidad-icon" />
+          <span style="font-family: monospace">En-Progreso</span>
+          <div class="progreso">
+            <div class="barra" style="width: 60%">60%</div>
+          </div>
+        </li>
+        <!-- Agrega más elementos de la lista para cada habilidad -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="dinamico.js"></script>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2023 Cris-Dam</p>
+    </div>
+  </footer>
+</body>
+
+</html>
