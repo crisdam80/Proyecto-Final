@@ -1,6 +1,6 @@
 .contenedor {
   display: flex;
-  background-image: url("https://lh3.googleusercontent.com/pw/AIL4fc97L1tvavHXYD4SoxncRy-GUGMmMgUyuGo7BEHfYMWmwSM0rJyXtODN6xDmmnFu07jyx4-SNLb6gBSep0atHbmCY-1jo07HXTyKy9yQ9eLwgx_9xRGnknAgaftKStfeim9fNPTLlRK7S5JLwBCtnt3N-mK3YPt3OGzkq_tRxDFcznU_sa9T-Drp3XbPUOIDhS8rdprszY8TqVCUw4OJnajCvPEukCDSvyjDWNwfe91zL_G6TLzEHcKLiHbGYS6TE_MLXSt7CnDPbS8yXmFT_O1zc3MXJJUkWr_dJwB3gZfv7PYI_sSwYx-ZBTpvZ31KcuOQvoXa7wvvNjyxfOG0zdp4EgF3yobxa9KXYjP_v29gqkGbRQ5rp2j1UjYBwSP0u2KVrosSOKGT5oOCQPQTVx4Z_nPCrcyL9l7GmuJgPEsXY1SUZ2_dMZDd6kruyfncDnV1MgX8v31V_FhtXES5kF5w3L3vFIxJzBZwS2lp7dt3mQLXbLnbpCK4RYWcVAKY-nPS_68ka7xrtx737RMj44hAi3_QSvAxMdU4TAN7MrEDMjN1MMZO69ey1x45U4-CkojPTjNzlpkPLLjmXcUyYRphYiSaXbardDeTdQzZQ2CeDG2fBghDvQkuyI3r0p-SeRXg8cbavKcFOM9A7nMxwqaB9Zla52QvyykgUUS7YiuUqS3g42SBeedE702ZfkkDtBB61-SJ2yKrmujaJyOsFsIYHIGiqbokmUTN7PFs-hOSwleLlOsjm0DvfwOFaEo_p_RD070Kt3HO4upWDrZino2ZN0EEO06bzLxj8tCPRA2OunDQl5IUkWAAL7ISG_sog6NrdYbIIQhzlsRWuQMts40gF3KO5EjggNvL2l_4nWQ4kdNvnWhjwtFRd7YIWU1b2kh_9x6ihUVOlX2fiHnJAQ=w1655-h931-s-no?authuser=0"); /* Ruta de  imagen de fondo */
+  background-image: url("/proyecto-final/image/lego-blue-texture_1920x1080_xtrafondos.png"); /* Ruta de  imagen de fondo */
   background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
   background-repeat: repeat; /* Evita que la imagen se repita */
   
